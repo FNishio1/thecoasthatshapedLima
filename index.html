@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lima's Coast: Morro Solar, Costa Verde, Callao | Extremo Oeste</title>
+<meta name="description" content="Historical photos and maps of the Morro Solar, the Costa Verde and Callao.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
+<style>
+:root{--bg:#0f1a1e;--panel:#16252b;--text:#ece6d8;--muted:#a9b3b1;--gold:#C2A878;--terra:#B35C3A;--line:#2b3d44;
+--display:"Bebas Neue",Impact,"Arial Narrow",sans-serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:400 1rem/1.55 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+header,main,footer{max-width:48rem;margin:0 auto;padding:0 1rem}
+header{padding-top:1.8rem;padding-bottom:.8rem}
+h1{font:400 clamp(2.4rem,10vw,4rem)/.95 var(--display);margin:0 0 .5rem;color:var(--gold)}
+.hint{color:var(--muted);margin:0;font-size:.95rem}
+nav{display:flex;gap:.5rem;padding:.7rem 1rem;position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--line);z-index:2}
+nav a{flex:1;text-align:center;color:var(--text);text-decoration:none;border:1px solid var(--line);border-radius:2rem;padding:.45rem .3rem;font-size:.95rem}
+nav a:active{border-color:var(--gold);color:var(--gold)}
+.part{scroll-margin-top:3.6rem;padding-top:2rem}
+.part>h2{font:400 clamp(2.2rem,9vw,3.2rem)/1 var(--display);color:var(--gold);margin:0 0 .3rem}
+.era{padding:1.4rem 0 .6rem;border-bottom:1px solid var(--line)}
+.year{font:400 2.2rem/1 var(--display);color:var(--terra);margin:0}
+.era h3{font:600 1.1rem/1.3 system-ui,sans-serif;margin:.1rem 0 .4rem}
+.era p{margin:0 0 .8rem}
+.facts{margin:0 0 .8rem;padding-left:1.1rem}
+.facts li{margin:.25rem 0}
+figure{margin:.8rem 0;background:var(--panel);border-radius:.4rem;overflow:hidden}
+figure img{display:block;width:100%;height:auto;touch-action:manipulation;-webkit-tap-highlight-color:transparent;cursor:zoom-in}
+.ph{padding:2rem 1rem;text-align:center;color:var(--muted);font-size:.85rem;border:1px dashed var(--line)}
+figcaption{padding:.5rem .7rem .7rem;font-size:.85rem;color:var(--muted)}
+figcaption b{display:block;color:var(--text);font-weight:600}
+.sens{position:relative;overflow:hidden}
+.sens img{filter:blur(18px);transform:scale(1.05)}
+.sens::after{content:"Graphic historical photo. Double-tap to view.";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;padding:1rem;font-weight:600;background:rgba(15,26,30,.45);pointer-events:none}
+.btn{display:inline-block;background:var(--gold);color:#1a1a1a;font-weight:600;text-decoration:none;padding:.7rem 1.2rem;border-radius:.4rem}
+footer{padding:1.5rem 1rem 3rem;color:var(--muted);font-size:.85rem}
+footer a{color:var(--gold)}
+details li{margin:.3rem 0}
+dialog{border:0;background:#000;padding:0;width:100vw;height:100vh;max-width:100vw;max-height:100vh}
+dialog img{width:100%;height:calc(100% - 3.2rem);object-fit:contain;display:block;touch-action:pinch-zoom}
+dialog p{color:#fff;margin:0;padding:.6rem 3.2rem .6rem .8rem;font-size:.85rem;height:3.2rem;overflow:auto}
+dialog button{position:absolute;right:.4rem;bottom:.4rem;width:2.4rem;height:2.4rem;border:0;border-radius:50%;background:#fff;color:#000;font-size:1.3rem}
+@media(min-width:34rem){figure.pair{display:inline-block;width:calc(50% - .4rem);vertical-align:top}figure.pair+figure.pair{margin-left:.8rem}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Lima's Coast</h1>
+  <p class="hint">Three stories in photos and maps. Double-tap any photo to enlarge it.</p>
+</header>
+<nav id="nav"></nav>
+<main id="parts"></main>
+<main>
+  <section class="part" id="map">
+    <h2>Route map</h2>
+    <p><a class="btn" href="https://www.openstreetmap.org/#map=12/-12.08/-77.07" target="_blank" rel="noopener">Open map</a></p>
+  </section>
+</main>
+<footer>
+  <details>
+    <summary>Sources</summary>
+    <ul>
+      <li><a href="https://en.wikipedia.org/wiki/Battle_of_San_Juan_and_Chorrillos">Battle of San Juan and Chorrillos</a></li>
+      <li><a href="https://aulavirtual.cultura.pe/mod/resource/view.php?id=2267">Morro Solar (Ministry of Culture)</a></li>
+      <li><a href="https://rpp.pe/peru/actualidad/la-otra-ruta-los-vigilantes-del-morro-solar-noticia-1211379">Los vigilantes del Morro (RPP)</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Costa_Verde_(Peru)">Costa Verde</a></li>
+      <li><a href="https://elperuano.pe/noticia/89313-la-costa-verde-en-la-historia">La Costa Verde en la historia</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Real_Felipe_Fortress">Real Felipe Fortress</a></li>
+      <li><a href="https://whc.unesco.org/en/tentativelists/6647">Real Felipe (UNESCO tentative list)</a></li>
+    </ul>
+  </details>
+  <p>Extremo Oeste. Photo credits are shown under each image.</p>
+</footer>
+<dialog id="box"><img alt=""><p></p><button aria-label="Close">×</button></dialog>
+
+<script>
+/* EDIT HERE. Photos live in the assets/ folder. w/h = pixel size (prevents layout jumps).
+   pair:true shows two photos side by side on tablets. sensitive:true blurs a photo until opened. */
+const A = "assets/";
+const PARTS = [
+ {id:"morro", nav:"Morro Solar", title:"Morro Solar", eras:[
+  {year:"1881", title:"The San Juan defense line",
+   text:"Peru's defense of Lima ran from the Morro Solar inland along trenches, forts and batteries. This Chilean map, drawn in June 1881, marks them.",
+   photos:[{f:"lineasanjuanchorrillos.webp",w:1429,h:1712,t:"Map of the battle of Chorrillos, 1881",c:"Map by Carlos M. Prieto, engraved by A. Galland, Santiago, June 1881"}]},
+  {year:"13 Jan 1881", title:"The battle",
+   text:"The line at Santa Teresa and San Juan fell first. On the Morro Solar the resistance lasted longer, and the Mártir Olaya battery was the last stronghold.",
+   photos:[
+    {f:"Chile_Chorrillos.webp",w:647,h:400,t:"Painting of a fort after the battle",c:"Credit: (add artist and source)"},
+    {f:"Batalla_de_Chorrillos.webp",w:999,h:784,t:"Battlefield, Chorrillos",c:"Credit: (add)",sens:true}]},
+  {year:"Today", title:"A patriotic sanctuary",
+   text:"Declared a Patriotic Sanctuary of Lima in 1965. A monument to the Unknown Soldier honors those who fell.",
+   photos:[{f:"morrosolarhoy.webp",w:640,h:800,t:"The Morro Solar today",c:"Credit: (add)"}]}
+ ]},
+ {id:"costaverde", nav:"Costa Verde", title:"Costa Verde", eras:[
+  {year:"Early 1900s", title:"The sea baths",
+   text:"Chorrillos was a bathing resort long before the highway, with bath houses at the foot of the cliffs.",
+   photos:[{f:"clubregatas2.webp",w:1230,h:966,t:"Baths at the foot of the cliffs, Chorrillos",c:"Credit: (add)"}]},
+  {year:"1910s–1920s", title:"La Herradura",
+   text:"Families filled the beach at La Herradura.",
+   photos:[
+    {f:"herradura1910.webp",w:640,h:390,t:"La Herradura, 1910",c:"Credit: Posted by Fátima (blog, add link)",pair:true},
+    {f:"playalaherradura2.webp",w:2646,h:1806,t:"La Herradura beach",c:"Credit: (add; add year)",pair:true}]},
+  {year:"Before the road", title:"The Chorrillos coast from the air",
+   text:"The Morro Solar over Chorrillos, with fields and no highway yet.",
+   photos:[{f:"costadechorrillos.webp",w:1500,h:924,t:"Aerial view, Chorrillos and the Morro Solar",c:"Credit: (add; add year)"}]},
+  {year:"1960s", title:"A strip of green",
+   text:"Dark green vegetation grew along the foot of the cliffs.",
+   photos:[
+    {f:"lacostaverdegreenpatches.webp",w:640,h:480,t:"Green patches at the cliff base",c:"Credit: Lima Antigua (ask permission)",pair:true},
+    {f:"aramburu_thegreenpatches.webp",w:640,h:517,t:"Aramburú and the green patches",c:"Credit: Lima Antigua (ask permission)",pair:true}]},
+  {year:"1960–1970", title:"The road and the beaches",
+   text:"After the 1950s the old Costanera became the Costa Verde. The beaches below the cliffs were largely artificial, built with the road in the 1960s. It opened on 15 December 1970.",
+   photos:[
+    {f:"costaverde60s.webp",w:487,h:374,t:"The coastal road, 1960s",c:"Credit: (add)",pair:true},
+    {f:"costaverde70s.webp",w:1920,h:768,t:"Beach and road, 1970s",c:"Credit: (add)",pair:true}]},
+  {year:"Today", title:"Then and now",
+   text:"The Costa Verde runs along La Punta, La Perla, San Miguel, Magdalena del Mar, San Isidro, Miraflores, Barranco and Chorrillos.",
+   photos:[{f:"costaverdeayervshoy.webp",w:1000,h:550,t:"The cliffs, then and now",c:"Credit: (add)"}]}
+ ]},
+ {id:"callao", nav:"Callao", title:"Callao", eras:[
+  {year:"Before 1746", title:"The walled port",
+   text:"Pirate raids, like Drake's in 1578, pushed Lima to fortify Callao. In October 1746 an earthquake and tsunami destroyed the town and washed away its walls.",
+   photos:[{f:"callaowalls.webp",w:794,h:565,t:"Plan of Callao, dated 1713",c:"Plan by Frézier, Dutch edition. Its legend lists 13 bastions."}]},
+  {year:"1747–1774", title:"The Real Felipe",
+   text:"Built after the disaster, to a design by French engineer Louis Godin. Named for King Philip V.",
+   facts:["Vauban-style fortress: angled bastions and layered defenses.","Irregular pentagon with five bastions, built mainly of stone.","About 70,000 m² with a perimeter of about 1,580 m.","Main gate between the El Rey and San José bastions."],
+   photos:[{f:"Realfelipemap.webp",w:1536,h:1075,t:"Plan of the plaza and port of Callao, 1826",c:"Credit: (add). Shows the fortress and the town walls in 1826."}]},
+  {year:"c. 1910", title:"Cantolao",
+   text:"",
+   photos:[{f:"cantolao1910.webp",w:992,h:558,t:"Cantolao beach, c. 1910",c:"Credit: (add)"}]}
+ ]}
+];
+
+const nav = document.getElementById("nav"), wrap = document.getElementById("parts"), box = document.getElementById("box");
+const bimg = box.querySelector("img"), bcap = box.querySelector("p");
+
+PARTS.concat([{id:"map", nav:"Map"}]).forEach(p => {
+  const a = document.createElement("a"); a.href = "#" + p.id; a.textContent = p.nav; nav.appendChild(a);
+});
+
+function open(ph){ bimg.src = A + ph.f; bimg.alt = ph.t; bcap.textContent = ph.t + " · " + ph.c; box.showModal(); }
+
+PARTS.forEach(p => {
+  const sec = document.createElement("section"); sec.className = "part"; sec.id = p.id;
+  sec.innerHTML = "<h2>" + p.title + "</h2>";
+  p.eras.forEach(e => {
+    const d = document.createElement("div"); d.className = "era";
+    let h = '<p class="year">' + e.year + '</p><h3>' + e.title + '</h3>' + (e.text ? '<p>' + e.text + '</p>' : '');
+    if (e.facts) h += '<ul class="facts">' + e.facts.map(x => '<li>' + x + '</li>').join('') + '</ul>';
+    d.innerHTML = h;
+    e.photos.forEach(ph => {
+      const f = document.createElement("figure");
+      if (ph.pair) f.className = "pair";
+      const wrapEl = document.createElement("div");
+      if (ph.sens) wrapEl.className = "sens";
+      const img = new Image();
+      img.src = A + ph.f; img.alt = ph.t; img.width = ph.w; img.height = ph.h;
+      img.loading = "lazy"; img.decoding = "async";
+      img.onerror = () => { const x = document.createElement("div"); x.className = "ph"; x.textContent = "Add the photo: " + A + ph.f; img.replaceWith(x); };
+      let last = 0;
+      img.addEventListener("click", () => { const n = Date.now(); if (n - last < 350) { open(ph); last = 0; } else { last = n; } });
+      wrapEl.appendChild(img);
+      const c = document.createElement("figcaption"); c.innerHTML = "<b>" + ph.t + "</b>" + ph.c;
+      f.append(wrapEl, c); d.appendChild(f);
+    });
+    sec.appendChild(d);
+  });
+  wrap.appendChild(sec);
+});
+
+box.addEventListener("click", e => { if (e.target !== bimg) box.close(); });
+bimg.addEventListener("dblclick", () => box.close());
+</script>
+</body>
+</html>
