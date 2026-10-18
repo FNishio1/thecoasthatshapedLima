@@ -175,6 +175,10 @@ PARTS.forEach(p => {
 
 box.addEventListener("click", e => { if (e.target !== bimg) box.close(); });
 bimg.addEventListener("dblclick", () => box.close());
+
+if ("serviceWorker" in navigator) {
+  addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
+}
 </script>
 </body>
 </html>
